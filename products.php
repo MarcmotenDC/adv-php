@@ -1,12 +1,12 @@
 <?php
 
 $dsn = "mysql:
-        host=localhost;
-        dbname=adv_php;
+        host=mywebtraining.net;
+        dbname=sherd_SteveHarvey;
         charset=utf8;
-        port=3306";
+        port=21";
 
-$pdo = new PDO($dsn, "adv_php_user", "secret", [
+$pdo = new PDO($dsn, "sherd_SteveHarvey", "secret", [
   PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 ]);
 
